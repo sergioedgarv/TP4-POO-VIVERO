@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=Cliente
+comment0.text=\r\n\ La\ clase\ Cliente\ representa\ a\ un\ cliente\ con\ un\ n\u00FAmero\ de\ DNI,\ apellido,\ nombre,\ y\ un\ saldo\ asociado.\r\n\ \r\n\ Funcionalidad\:\ Permite\ gestionar\ la\ informaci\u00F3n\ de\ un\ cliente,\ incluyendo\ su\ saldo,\r\n\ y\ realizar\ operaciones\ para\ actualizar\ o\ consultar\ el\ saldo\ disponible.\r\n\ \r\n\ Comportamiento\:\ Los\ atributos\ se\ mantienen\ privados\ para\ asegurar\ el\ encapsulamiento,\r\n\ y\ se\ proporcionan\ m\u00E9todos\ p\u00FAblicos\ para\ interactuar\ con\ la\ informaci\u00F3n\ del\ cliente.\r\n
+comment1.params=p_NroDni\ p_apellido\ p_nombre\ p_Saldo
+comment1.target=Cliente(int,\ java.lang.String,\ java.lang.String,\ java.lang.Double)
+comment1.text=\r\n\ Constructor\ que\ inicializa\ una\ instancia\ de\ Cliente\ con\ los\ datos\ proporcionados.\r\n\ \r\n\ Funcionalidad\:\ Inicializa\ los\ atributos\ del\ cliente\ con\ los\ valores\ dados.\r\n\ \r\n\ Comportamiento\:\ Asigna\ los\ valores\ proporcionados\ a\ los\ atributos\ correspondientes.\r\n\ \r\n\ @param\ p_dni\ El\ n\u00FAmero\ de\ DNI\ del\ cliente.\r\n\ @param\ p_apellido\ El\ apellido\ del\ cliente.\r\n\ @param\ p_nombre\ El\ nombre\ del\ cliente.\r\n\ @param\ p_importe\ El\ saldo\ inicial\ del\ cliente.\r\n
+comment10.params=p_dni
+comment10.target=void\ setDNI(int)
+comment11.params=p_name
+comment11.target=void\ setName(java.lang.String)
+comment12.params=p_surname
+comment12.target=void\ setApellido(java.lang.String)
+comment13.params=p_Saldo
+comment13.target=void\ setSaldo(double)
+comment14.params=
+comment14.target=void\ mostrar()
+comment14.text=\r\n\ Muestra\ en\ la\ consola\ los\ datos\ del\ cliente.\r\n\ \r\n\ Funcionalidad\:\ Imprime\ los\ datos\ b\u00E1sicos\ del\ cliente\ en\ la\ consola.\r\n
+comment2.params=p_importe
+comment2.target=double\ nuevoSaldo(double)
+comment2.text=\r\n\ Reemplaza\ el\ saldo\ actual\ del\ cliente\ con\ un\ nuevo\ importe\ y\ devuelve\ el\ nuevo\ saldo.\r\n\ \r\n\ Funcionalidad\:\ Permite\ establecer\ un\ nuevo\ saldo,\ reemplazando\ el\ saldo\ anterior.\r\n\ \r\n\ Comportamiento\:\ El\ saldo\ actual\ se\ sobrescribe\ con\ el\ valor\ proporcionado.\r\n\ \r\n\ @param\ p_importe\ El\ nuevo\ saldo\ que\ se\ asignar\u00E1\ al\ cliente.\r\n\ @return\ El\ nuevo\ saldo\ del\ cliente.\r\n
+comment3.params=p_importe
+comment3.target=double\ agregaSaldo(double)
+comment3.text=\r\n\ Agrega\ un\ importe\ al\ saldo\ actual\ del\ cliente\ y\ devuelve\ el\ nuevo\ saldo.\r\n\ \r\n\ Funcionalidad\:\ Incrementa\ el\ saldo\ actual\ del\ cliente\ con\ el\ importe\ proporcionado.\r\n\ \r\n\ Comportamiento\:\ El\ saldo\ se\ actualiza\ sumando\ el\ importe\ al\ saldo\ existente.\r\n\ \r\n\ Mejoras\:\ Se\ podr\u00EDa\ mejorar\ a\u00F1adiendo\ validaciones\ para\ importes\ negativos\ o\ notificaciones\ de\ cambio.\r\n\ if(p_importe\ <\ 0){\r\n\ \ this.saldo\ -\=\ p_importe\ \r\n\ }\r\n\ \r\n\ \r\n\ @param\ p_importe\ El\ importe\ que\ se\ agregar\u00E1\ al\ saldo\ actual.\r\n\ @return\ El\ nuevo\ saldo\ del\ cliente.\r\n
+comment4.params=
+comment4.target=java.lang.String\ nomYapellido()
+comment4.text=\r\n\ Retorna\ el\ nombre\ completo\ del\ cliente\ en\ el\ formato\ "Nombre\ ,Apellido\ ".\r\n\ \r\n\ Funcionalidad\:\ Proporciona\ el\ nombre\ completo\ del\ cliente\ en\ un\ formato\ espec\u00EDfico.\r\n\ \r\n\ Comportamiento\:\ Los\ valores\ de\ apellido\ y\ nombre\ se\ concatenan\ con\ una\ coma\ y\ un\ espacio\ entre\ ellos.\r\n\ \r\n\ @return\ Un\ String\ que\ contiene\ el\ apellido\ y\ nombre\ del\ cliente.\r\n
+comment5.params=
+comment5.target=java.lang.String\ apeYnomb()
+comment6.params=
+comment6.target=int\ getDni()
+comment7.params=
+comment7.target=double\ getSaldo()
+comment8.params=
+comment8.target=java.lang.String\ getNom()
+comment9.params=
+comment9.target=java.lang.String\ getApe()
+numComments=15
